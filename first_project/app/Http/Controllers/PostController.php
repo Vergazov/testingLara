@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\DB;
 class PostController extends Controller
 {
     public function index() {
-        $posts = Post::get();
+        $posts = Post::find(1);
         dd($posts);
     }
 }
