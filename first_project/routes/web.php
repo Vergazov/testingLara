@@ -13,13 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('', function () {
-//    return view('welcome');
-    return 'Hello World';
-});
 
-Route::get('/my_page','MyPlaceController@index');
+Route::get('/posts','PostController@index');
 
-Route::get('/my_page/main-profile','MainProfileController@mainProfile');
 
-Route::get('settings','SettingsController@getSettings');
