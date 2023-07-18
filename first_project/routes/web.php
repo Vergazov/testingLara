@@ -14,28 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/posts','PostController@index');
+Route::get('/posts','PostController@index')->name('post.index');
+Route::get('/main','MainController@index')->name('main.index');
+Route::get('/contacts','ContactController@index')->name('contact.index');
+Route::get('/about','AboutController@index')->name('about.index');
 
-Route::get('/posts/create','PostController@create');
 
-Route::get('/posts/update','PostController@update');
 
-Route::get('/posts/delete','PostController@delete');
-
-Route::get('/posts/restore','PostController@restore');
-
-Route::get('/kkt-list', 'KKTListController@getKktList');
-
-Route::get('/clientsList','ClientsListController@getClientsList');
-
-Route::get('/OW2Characters','OW2CharactersController@getCharactersList');
-
-Route::get('/WCCharacters','WCCharactersListController@getCharacterList');
-
-Route::get('/finance-list','FamilyFinanceController@getFinance');
-
-Route::get('/calorie-consumption','ColloriesController@getСalorieConsumption');
-
-Route::get('/todo-list','TodoListController@getTodoList');
-
-Route::get('/birthday-list','BirthdayListController@getBirthdayList');

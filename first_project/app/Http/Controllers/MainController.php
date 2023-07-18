@@ -6,11 +6,11 @@ use App\Models\Post;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
-class PostController extends Controller
+class MainController extends Controller
 {
     public function index()
     {
-        return view('posts');
+        return view('main');
     }
 
 

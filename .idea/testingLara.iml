@@ -109,6 +109,12 @@
       <excludeFolder url="file://$MODULE_DIR$/first_project/vendor/league/flysystem" />
       <excludeFolder url="file://$MODULE_DIR$/first_project/vendor/league/config" />
       <excludeFolder url="file://$MODULE_DIR$/first_project/vendor/league/commonmark" />
+      <excludeFolder url="file://$MODULE_DIR$/first_project/vendor/doctrine/deprecations" />
+      <excludeFolder url="file://$MODULE_DIR$/first_project/vendor/doctrine/event-manager" />
+      <excludeFolder url="file://$MODULE_DIR$/first_project/vendor/doctrine/dbal" />
+      <excludeFolder url="file://$MODULE_DIR$/first_project/vendor/doctrine/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/first_project/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/first_project/vendor/laravel/ui" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -109,6 +109,12 @@
       <path value="$PROJECT_DIR$/first_project/vendor/league/flysystem" />
       <path value="$PROJECT_DIR$/first_project/vendor/league/config" />
       <path value="$PROJECT_DIR$/first_project/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/first_project/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/first_project/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/first_project/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/first_project/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/first_project/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/first_project/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.4" />
